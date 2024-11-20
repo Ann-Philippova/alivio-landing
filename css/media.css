@@ -1,0 +1,257 @@
+@media (max-width: 1535px) {
+    .container-wide {
+        width: 100%;
+    }
+
+    .footer-nav {
+        margin-left: 270px;
+        column-gap: 300px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+    }
+
+    .how-it-works {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .how-it-works-subtitle {
+        font-size: 35px;
+        line-height: 130%;
+        max-width: 400px;
+    }
+
+    .how-it-works-header-content {
+        padding-top: 20px;
+    }
+
+    .how-it-works-header {
+        flex-direction: column;
+    }
+
+    .how-it-works-steps {
+        justify-content: space-evenly;
+    }
+
+    .step:nth-child(2), .step:nth-child(3) {
+        padding-top: 0px;
+    }
+
+    .footer-nav {
+        margin-left: 230px;
+        column-gap: 250px;
+    }
+}
+
+@media (max-width: 1299px) {
+    .product {
+        padding-top: 80px;
+    }
+
+    .product-img-wrapper {
+        flex: 1 0 auto;
+        flex-basis: 50%;
+    }
+
+    .product-content-subtitle {
+        font-size: 40px;
+        line-height: 130%;
+    }
+
+    .product-card {
+        top: 60%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .header-row {
+        justify-content: space-between;
+    }
+
+    .header-nav {
+        margin-left: 30px;
+    }
+
+    .header-nav li + li {
+        margin-left: 50px;
+    }
+
+    .header-login {
+        margin-left: 30px;
+    }
+
+    .story {
+        padding: 90px 0 90px;
+    }
+
+    .story-row {
+        flex-direction: column-reverse;
+    }
+
+    .story-heading {
+        font-size: 45px;
+        line-height: 130%;
+    }
+
+    .story-text {
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .story-video  {
+        margin-bottom: 40px;
+    }
+
+    .story-text + * {
+        margin-top: 40px;
+    }
+
+    .footer-nav {
+        margin-left: 150px;
+        column-gap: 150px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+
+    .header-nav, .header-login {
+        display: none;
+    }
+
+    .home-bg-img img {
+        opacity: 0.7;
+    }
+
+    .home {
+        padding: 40px 0;
+        /*min-height: unset*/
+    }
+
+    .home-haeding {
+        font-size: 45px;
+        line-height: 1.2;
+        max-width: 260px;
+    }
+
+    .home-text {
+        max-width: 390px;
+    }
+
+    .home-text + * {
+        margin-top: 30px;
+    }
+
+    .btn, a.btn {
+        min-height: 41px;
+        padding: 10px 30px;
+    }
+
+    .btn-big, a.btn-big {
+        min-height: 55px;
+    }
+
+    .story {
+        padding: 100px 0 200px;
+    }
+
+    .story-heading {
+        font-size: 35px;
+        line-height: 130%;
+    }
+
+    .story-text {
+        font-size: 18px;
+    }
+
+    .story-text + * {
+        margin-top: 30px;
+    }
+
+    .product {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .product-row  {
+        flex-direction: column-reverse;
+    }
+
+    .product-content {
+        margin-bottom: 40px;
+    }
+
+    .product-content-subtitle {
+        font-size: 35px;
+    }
+
+    .card {
+        max-width: 296px;
+    }
+
+    .product-card {
+        position: relative;
+        z-index: 2;
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-img-wrapper {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .mobile-nav-button{
+        display: flex;
+    }
+}
+
+@media (max-width: 750px) {
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        margin-top: 70px;
+        margin-left: 0px;
+        font-size: 20px;
+        column-gap: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        max-width: 250px;
+    }
+    
+    .product-card {
+        margin: -30% 15px 0;
+    }
+
+    .product {
+        padding-bottom: 40px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .footer-nav ul + * {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 419px) {
+    .how-it-works-steps {
+        grid-template-columns: 1fr;
+    }
+}
